@@ -1,0 +1,25 @@
+{
+  "name": "lambda.alexa-buddy",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Jan Rohwer",
+    "email": "jan.rohwer@gmail.com"
+  },
+  "homepage": "https://github.com/janhuddel/lambda.alexa-buddy",
+  "license": "MIT",
+  "keywords": [
+    "Alexa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janhuddel/lambda.alexa-buddy"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
