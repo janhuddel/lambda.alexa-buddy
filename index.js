@@ -4,7 +4,7 @@ const GATEWAY = process.env.GATEWAY;
 
 exports.lambdaHandler = async (request, context) => {
   try {
-    const response = await axios.post(`${GATEWAY}/api/v1/alexa-request`, {
+    const response = await axios.post(`${GATEWAY}/alexa/v1/alexa-request`, {
       request: request,
       context: context,
     });
